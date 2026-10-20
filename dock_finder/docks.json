@@ -1,6 +1,0 @@
-[
-  {"name": "Dry Dock 1", "length": 160.0, "breadth": 24.0, "sill_depth": 4.5},
-  {"name": "Dry Dock 2", "length": 120.0, "breadth": 20.0, "sill_depth": 4.0},
-  {"name": "Dry Dock 3", "length": 90.0,  "breadth": 16.0, "sill_depth": 3.5},
-  {"name": "Rajabagan Dry Dock", "length": 110.0, "breadth": 18.0, "sill_depth": 3.8}
-]

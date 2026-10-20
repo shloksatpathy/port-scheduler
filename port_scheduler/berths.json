@@ -1,0 +1,6 @@
+[
+  {"name": "Berth 1", "length": 250.0, "breadth": 40.0, "depth": 12.0},
+  {"name": "Berth 2", "length": 200.0, "breadth": 32.0, "depth": 10.5},
+  {"name": "Berth 3", "length": 160.0, "breadth": 28.0, "depth": 9.0},
+  {"name": "Berth 4", "length": 120.0, "breadth": 22.0, "depth": 7.5}
+]
