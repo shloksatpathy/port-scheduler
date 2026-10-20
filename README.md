@@ -17,3 +17,13 @@ python3 port_scheduler/berth_finder.py --length 180 --breadth 30 --draft 9.5 --t
 ```
 
 Berth data is in `port_scheduler/berths.json`. The values there are placeholders and need to be replaced with the real berth dimensions of the port.
+
+## Tide Window Calculator
+
+`port_scheduler/tide_window.py` finds the time windows when a vessel can safely be at a berth, i.e. when vessel draft ≤ berth depth + tide height.
+
+```
+python3 port_scheduler/tide_window.py --berth "Berth 2" --draft 13.5
+```
+
+Tide readings are in `port_scheduler/tides.json` (hourly, height above chart datum in metres). The values there are placeholders and need to be replaced with the port's predicted tide tables.
